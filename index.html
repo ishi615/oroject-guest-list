@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geust List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <center>
+    <div class="container">
+        <div class="page-header"><h1>Geust List</h1></div>
+        <br>
+        <div class="row"><input type="text" placeholder="Name of the guest" id="input">
+            <button class="btn btn-sucecss"type="button" onclick="sumbit()">Add</button>
+        </div>
+    <hr><div id="unsorted_list"></div><hr>
+    <h1>Guest List</h1>
+<button class="bg-primary" onclick="show()">Show</button>
+<hr><div id="unsorted_list_one">
+   
+</div><hr>
+<button class="bg-primary" onclick="sort()">Sort</button>
+<hr><div id="sorted_list"></div> <hr>
+</div>
+</center>
+</body>
+</html>
